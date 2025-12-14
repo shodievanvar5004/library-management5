@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Books</title>
+  <link rel="stylesheet" href="MainPage.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-container">
+    <div class="logo">📚 Online Library</div>
+    <nav class="nav">
+      <a href="MainPage.html" class="nav-link">Home</a>
+      <a href="ownrooms.html" class="nav-link">Own rooms</a>
+      <a href="libraryP2.html" class="btn-logout">Logout</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Read Books Online</h1>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search online books...">
+      <button id="searchBtn">Search</button>
+    </div>
+  </div>
+</section>
+
+<section class="categories">
+  <div class="container">
+    <h2>Categories</h2>
+    <div class="category-buttons">
+      <button class="cat-btn" data-category="All">All</button>
+      <button class="cat-btn" data-category="Literature">Literature</button>
+      <button class="cat-btn" data-category="Fantasy">Fantasy</button>
+      <button class="cat-btn" data-category="Science Fiction">Science Fiction</button>
+      <button class="cat-btn" data-category="Philosophy">Philosophy</button>
+      <button class="cat-btn" data-category="Science">Science</button>
+    </div>
+  </div>
+</section>
+
+<section class="books container">
+  <h2>Available Online Books</h2>
+
+  <div class="books-grid" id="booksGrid">
+    <!-- JS orqali chiqadi -->
+  </div>
+</section>
+
+<script src="onlinebook.js"></script>
+</body>
+</html>
